@@ -1,0 +1,68 @@
+body {
+    background-color: aqua;
+}
+.side-menu{
+    top:0;
+    left:0;
+    width: 200px;
+    position: absolute;
+    height: 100vh;
+    background-color: rgb(202, 247, 248);
+}
+
+#colors ul{
+    list-style: none;
+    margin-top: 80px;
+}
+
+#colors button{
+    position: relative;
+    left: 10%;
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
+}
+#thicknesS ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#thicknesS button{
+    position: relative;
+    left: 10%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: aqua;
+}
+
+#red{
+    background-color: rgb(219, 27, 53);
+}
+
+#green{
+    background-color:green;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#purple{
+    background-color: rgb(231, 77, 211);
+}
+
+#blue{
+    background-color: blue;
+}
+
+#canvas{
+    background-color: white;
+    width:500px;
+    height:500px;
+    margin-top:50px;
+    margin-left:500px;
+}
